@@ -1,0 +1,9 @@
+/home/huy/project/web/Lap3/School/bin/Debug/School.dacpac
+/home/huy/project/web/Lap3/School/bin/Debug/School.dll
+/home/huy/project/web/Lap3/School/bin/Debug/School.pdb
+/home/huy/project/web/Lap3/School/obj/Debug/Model.xml
+/home/huy/project/web/Lap3/School/obj/Debug/refactor.xml
+/home/huy/project/web/Lap3/School/obj/Debug/postdeploy.sql
+/home/huy/project/web/Lap3/School/obj/Debug/predeploy.sql
+/home/huy/project/web/Lap3/School/obj/Debug/School.dll
+/home/huy/project/web/Lap3/School/obj/Debug/School.pdb
