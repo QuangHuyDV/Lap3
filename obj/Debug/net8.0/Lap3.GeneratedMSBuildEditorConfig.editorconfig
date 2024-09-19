@@ -26,6 +26,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/huy/project/web/Lap3/Views/Learner/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhcm5lci9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/huy/project/web/Lap3/Views/Learner/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhcm5lci9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/huy/project/web/Lap3/Views/Learner/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhcm5lci9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/huy/project/web/Lap3/Views/Learner/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhcm5lci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
