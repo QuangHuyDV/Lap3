@@ -5,7 +5,9 @@
 @model IEnumerable<Learner>
 <div class="ms-2 mx-2">
     <h1>Learner List</h1>
+    @await Component.InvokeAsync("Major")
     <a asp-action="Create" class="btn btn-primary">Create new Student</a>
+    <div class="content">
     <table class="table table-striped">
         <thead>
             <tr>
@@ -33,4 +35,19 @@
             }
         </tbody>
     </table>
+    </div>
 </div>
+@section Scripts{
+    <script>
+        $("li").click(function (e){
+            var id = $(this).attr("id");
+            $.ajax({
+                url: "LearnerByMajorID",
+                data: {mid: id},
+                success: function(response) {
+                    $("div#content").html)(response);
+                }
+            });
+        });
+    </script>
+}

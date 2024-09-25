@@ -22,11 +22,25 @@ namespace Lap3.Controllers
         }
 
         [HttpGet("List")]
-        public IActionResult Index()
+        public IActionResult Index(int? mid)
         {
-            var learners = db.Learners.Include(m => m.Major).ToList();
-            return View(learners);
+            if (mid == null)
+            {
+                var learners = db.Learners.Include(m => m.Major).ToList();
+                return View(learners);
+            }
+            else
+            {
+                var learners = db.Learners.Where(l => l.MajorID == mid);
+                return View(learners);
+            }
         }
+
+        public IActionResult LearnerByMajorID(int mid) {
+            var learners = db.Learners.Where(l=>l.MajorID == mid).Include(m=>m.Major).ToList();
+            return PartialView("LearnerTable", learners);
+        }
+
 
         [HttpGet("Create")]
         public IActionResult Create()

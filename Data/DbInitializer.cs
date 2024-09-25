@@ -27,6 +27,15 @@ namespace Lap3.Data
                 var learners = new Learner[] {
                     new Learner{FirstMidName="Carson", LastName = "Alexander", EnrollmentDate=DateTime.Parse("2002-09-01"), MajorID = 1},
                     new Learner{FirstMidName="Meredith", LastName = "Alonso", EnrollmentDate=DateTime.Parse("2002-09-01"), MajorID = 2},
+                    new Learner{FirstMidName="Ha", LastName = "Minh", EnrollmentDate=DateTime.Parse("2002-09-01"), MajorID = 3},
+                    new Learner{FirstMidName="Khanh", LastName = "Tran", EnrollmentDate=DateTime.Parse("2002-09-01"), MajorID = 2},
+                    new Learner{FirstMidName="Tung", LastName = "Đào", EnrollmentDate=DateTime.Parse("2002-09-01"), MajorID = 1},
+                    new Learner{FirstMidName="Lan", LastName = "Pham", EnrollmentDate=DateTime.Parse("2002-09-01"), MajorID = 2},
+                    new Learner{FirstMidName="Thuy", LastName = "Lam", EnrollmentDate=DateTime.Parse("2002-09-01"), MajorID = 3},
+                    new Learner{FirstMidName="Tien", LastName = "Do", EnrollmentDate=DateTime.Parse("2002-09-01"), MajorID = 2},
+                    new Learner{FirstMidName="Quan", LastName = "Nguyen", EnrollmentDate=DateTime.Parse("2002-09-01"), MajorID = 2},
+                    new Learner{FirstMidName="Meredith 2", LastName = "Alonso", EnrollmentDate=DateTime.Parse("2002-09-01"), MajorID = 2},
+                    new Learner{FirstMidName="Meredith 3", LastName = "Alonso", EnrollmentDate=DateTime.Parse("2002-09-01"), MajorID = 1},
                 };
                 foreach (Learner l in learners)
                 {
